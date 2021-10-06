@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+* {
+  font-family: 'Poppins', sans-serif;
+}
+.container-styling {
+  border-radius: 25px;
+  background-color: #212222;
+  transition: 0.6s;
+}
+.img-container {
+  width: 90%;
+  padding: 30px 40px 60px 50px;
+  align-items: center;
+  display: flex;
+}
+body {
+  background-color: #0f0f10;
+}
+p {
+  font-size: 20px;
+  color: #e3eaec;
+  text-align: left;
+}
+h1 {
+  color: #e3eaec;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  padding: 30px 100px;
+  z-index: 100000;
+}
+header .logo {
+  position: relative;
+  font-weight: 700;
+  color: #f0f4f9;
+  text-decoration: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.6s;
+}
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+header ul li a {
+  position: relative;
+  margin: 0 30px;
+  text-decoration: none;
+  color: #f0f4f9;
+  letter-spacing: 2px;
+  font-weight: 500px;
+  transition: 0.5s;
+}
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+  padding: 100px;
+}
+.blue {
+  background: #00f2fe;
+}
+.red {
+  background: #dd3f31;
+}
+.pink {
+  background: #ff0066;
+}
+.dark {
+  background: #0f0f10;
+}
+.white {
+  background: #f0f4f9;
+}
+.gradient {
+  background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+}
+.layer2-gradient {
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+.wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(111% + 1.3px);
+  height: 148px;
+}
+
+.wave .shape-fill {
+  fill: #00ff88;
+}
