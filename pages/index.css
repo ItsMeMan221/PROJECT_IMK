@@ -88,3 +88,14 @@ section {
 p .third {
   font-size: 22px;
 }
+.img-card {
+  max-width: 35%;
+  max-height: 100%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.font-card {
+  font-size: 0.5em;
+}
