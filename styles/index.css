@@ -8,14 +8,7 @@
   transition: 0.6s;
 }
 .img-container {
-  width: 100%;
-  padding: 70px 0px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-}
-.img-style {
-  width: 95%;
+  max-width: 100%;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -26,30 +19,26 @@ body {
 p {
   color: #e3eaec;
   text-align: left;
-  font-size: 1.4em;
+  font-size: 1.3em;
   padding: 10px 0px;
 }
 h1 {
   color: #e3eaec;
   text-align: center;
-  font-size: 2.8em;
+  font-size: 2em;
 }
 h3 {
   color: #e3eaec;
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
 ul li {
   color: #e3eaec;
 }
 li {
-  font-size: 1.4em;
+  font-size: 1.1em;
 }
 section {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  min-height: 400px;
-  padding: 150px;
+  padding: 100px;
 }
 .gradient {
   background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
@@ -98,4 +87,12 @@ p .third {
 }
 .font-card {
   font-size: 0.5em;
+}
+.nav-pad {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.img-styling {
+  width: 25%;
+  position: relative;
 }
