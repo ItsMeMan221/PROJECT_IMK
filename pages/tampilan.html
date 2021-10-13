@@ -37,6 +37,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="../styles/index.css" />
     <link href="../styles/hover.css" rel="stylesheet" />
+    <link rel="icon" href="../img/Logo IMK.ico" />
   </head>
   <body>
     <nav
@@ -44,7 +45,10 @@
       style="font-size: 16px"
     >
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a href="#"
+          ><img src="../img/Logo IMK.png" class="navbar-image navbar-brand" />
+        </a>
+        <a class="navbar-brand" href="#">LEMMINO</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -62,7 +66,7 @@
               <a class="nav-link active" href="#home">Home</a>
             </li>
             <li class="nav-item hvr-float-shadow nav-pad">
-              <a class="nav-link active" href="#Why?">Why?</a>
+              <a class="nav-link active" href="#Why">Why?</a>
             </li>
             <li class="nav-item hvr-float-shadow nav-pad">
               <a class="nav-link active" href="#How">How?</a>
@@ -82,7 +86,9 @@
           data-aos="fade-down-right"
           data-aos-duration="1200"
         >
-          <h1 style="text-align: center">YOUR INTERNET PRIVACY MATTER!</h1>
+          <h1 style="text-align: center">
+            <span>YOUR</span> INTERNET <span>PRIVACY</span> MATTER!
+          </h1>
           <br />
           <p>
             Online privacy, also known as internet privacy or digital privacy,
@@ -124,14 +130,14 @@
         </svg>
       </div>
     </section>
-    <section class="gradient-style2" id="Why?">
+    <section class="gradient-style2" id="Why">
       <div class="row">
         <h1
           style="text-align: center"
           data-aos="fade-down"
           data-aos-duration="1200"
         >
-          WHY DOES IT MATTER?
+          <span>WHY</span> DOES IT MATTER?
         </h1>
         <div
           class="col-md-6"
@@ -178,7 +184,7 @@
     <section class="gradient-layer3">
       <div class="row" id="How">
         <h1 data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="40">
-          HOW DO YOU PRVENT YOUR DATA FROM GETTING STOLEN?
+          <span> HOW TO </span> PREVENT YOUR DATA FROM GETTING STOLEN?
         </h1>
         <div
           class="col-md-6"
@@ -279,7 +285,7 @@
     </section>
     <footer id="about">
       <div class="container" style="color: #e3eaec">
-        <h1>ABOUT US</h1>
+        <h1>OUR TEAM</h1>
         <br />
         <div class="row">
           <div class="col-sm-4 text-center" style="text-align: center">
@@ -320,7 +326,7 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init({
-        once: false,
+        once: true,
       });
     </script>
   </body>

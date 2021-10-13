@@ -96,3 +96,18 @@ p .third {
   width: 25%;
   position: relative;
 }
+#home span {
+  font-weight: bold;
+  color: #00ff88;
+}
+#Why span {
+  font-weight: bold;
+  color: #086dc1;
+}
+.navbar-image {
+  width: 20px;
+}
+#How span {
+  font-weight: bolder;
+  color: #00ff88;
+}
